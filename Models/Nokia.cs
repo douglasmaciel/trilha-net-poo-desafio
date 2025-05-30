@@ -10,7 +10,7 @@ namespace DesafioPOO.Models
         // TODO: Sobrescrever o método "InstalarAplicativo"
         public override void InstalarAplicativo(string nomeApp)
         {
-            Console.WriteLine($"Instalando app no Nokia número {Numero}, modelo {Modelo}, contendo {Memoria} de memória de IMEI {IMEI}.");
+            Console.WriteLine($"Instalando app {nomeApp} no Nokia número {Numero}.");
         }
     }
 }
